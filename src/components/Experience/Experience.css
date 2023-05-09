@@ -1,0 +1,63 @@
+#experience {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 5rem 0rem;
+}
+
+.experience-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-text-heading {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.experience-text-heading span {
+  color: var(--primary-color);
+  font-size: 6rem;
+}
+
+.experience-text-heading div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* gap: 1rem; */
+}
+
+.year-heading {
+  color: var(--heading);
+  font-size: 2rem;
+}
+
+.industry-heading {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+
+.experience-text-main {
+  color: var(--primary-text);
+  width: 80%;
+  line-height: 1.4rem;
+  margin: 0rem 0rem 1.6rem 0rem;
+}
+
+.experience-img {
+  position: relative;
+}
+
+.experience-img img:first-child {
+  padding: 1rem;
+  border: 1rem solid var(--primary-color);
+}
+
+.experience-relative {
+  position: absolute;
+  width: 50%;
+  bottom: -2rem;
+  right: -2rem;
+  padding: 1rem;
+  border: 1rem solid var(--primary-color);
+}

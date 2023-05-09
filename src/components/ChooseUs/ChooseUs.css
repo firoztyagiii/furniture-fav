@@ -1,0 +1,29 @@
+#choose-us {
+  background-color: #f2f2f2;
+}
+
+.choose-us__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.choose-us__left-heading {
+  color: var(--primary-text);
+  font-size: 1.3rem;
+  margin-bottom: 1.3rem;
+}
+
+.choose-us__left {
+  padding: 5rem 1rem;
+}
+
+.choose-us__left-heading__text {
+  color: var(--primary-text);
+  line-height: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.choose-us__right {
+  padding: 5rem 1rem;
+}

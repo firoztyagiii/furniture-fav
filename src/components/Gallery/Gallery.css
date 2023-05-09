@@ -1,0 +1,19 @@
+.gallery {
+  column-count: 3;
+  padding: 2rem 8rem;
+}
+
+.gallery-img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.gallery-img:hover {
+  cursor: pointer;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

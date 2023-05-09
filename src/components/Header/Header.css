@@ -1,0 +1,117 @@
+.header {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+}
+
+.left-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-tagline {
+  background-color: #434343;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-tagline p {
+  padding: 1rem 5rem 1rem 0rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo h1 {
+  color: black;
+  font-size: 3rem;
+  padding: 1rem 5rem 1rem 0rem;
+}
+
+.right-header__top {
+  background-color: #332f30;
+  padding: 1.5em 2rem;
+}
+
+.right-header__bottom {
+  background-color: var(--primary-color);
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+
+.header-contact {
+  display: flex;
+  padding: 0 1rem;
+  gap: 4rem;
+}
+
+.header-contact__feature {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.header-contact__feature svg {
+  font-size: 2rem;
+}
+
+.header-contact__feature p {
+  align-self: center;
+  /* TODO: fix the icon { this is icon for temporary} */
+}
+
+.header-contact__detail p:first-child {
+  margin-bottom: 0.5rem;
+}
+
+/* NAVIGATION */
+
+.list {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  padding: 0 3rem;
+}
+
+.list-item {
+  padding: 2rem 0rem;
+  position: relative;
+}
+
+.list-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 0px;
+  background-color: #fff;
+  transition: all 0.3s;
+}
+
+.list-item:hover {
+  cursor: pointer;
+}
+
+.list-item:hover.list-item::before {
+  height: 2px;
+  width: 100%;
+}
+
+.logo {
+  margin-right: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 70%;
+  height: 70%;
+}

@@ -1,0 +1,28 @@
+.sub-heading {
+  color: var(--heading);
+  font-weight: 500;
+  position: relative;
+  width: fit-content;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.sub-heading::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.6rem;
+  width: 50%;
+  background-color: var(--primary-text);
+  height: 2px;
+}
+
+.sub-heading::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.7rem;
+  width: 20%;
+  background-color: var(--primary-color);
+  height: 6px;
+}

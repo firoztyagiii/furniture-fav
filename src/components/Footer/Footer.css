@@ -1,0 +1,121 @@
+.footer {
+  background-color: #111111;
+}
+
+.footer-social {
+  /* width: 60%; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid black;
+}
+
+.socials {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social svg {
+  font-size: 1.5rem;
+}
+
+.footer-details {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 30% 30% 40%;
+  background-image: url("../../assests/img/map-pattern.png");
+  background-size: contain;
+  padding: 2rem 0rem 4rem 0rem;
+}
+
+.footer-detail {
+  padding: 1rem;
+}
+
+.footer-detail-text {
+  color: var(--primary-text);
+  line-height: 1.2rem;
+}
+
+.footer-detail-title {
+  margin: 2rem 0rem;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  position: relative;
+  padding-bottom: 0.8rem;
+}
+
+.footer-detail-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 2rem;
+  height: 2px;
+  background-color: var(--primary-color);
+}
+
+.contact-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-detail p span {
+  color: var(--primary-text);
+  margin-right: 0.6rem;
+}
+
+.newsletter p {
+  color: var(--primary-text);
+  margin-bottom: 1.4rem;
+}
+
+.newsletter-input {
+  display: flex;
+}
+
+.newsletter-input input {
+  border: none;
+  padding: 1rem 0.8rem;
+  width: 70%;
+}
+
+.newsletter-input button {
+  width: 30%;
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.newsletter-input button:hover {
+  cursor: pointer;
+}
+
+.footer-ribbon {
+  /* padding: 1rem; */
+  background-color: black;
+}
+
+.ribbon p {
+  color: var(--primary-text);
+}
+
+.ribbon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ribbon button {
+  padding: 1rem 1.4rem;
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.ribbon button:hover {
+  cursor: pointer;
+}

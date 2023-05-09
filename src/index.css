@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #ab7442;
+  --primary-text: #777777;
+  --heading: #322f2f;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #fff;
+  font-family: "Archivo", sans-serif;
+}
+
+img {
+  display: block;
+}
